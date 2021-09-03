@@ -1,0 +1,47 @@
+h1
+{
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+}
+
+h2
+{
+    color: black;
+}
+
+p
+{
+    color: blue;
+}
+
+@font-face
+{
+    font-family: 'dimboregular';
+    src: url('font/dimbo_regular-webfont.woff2') format('woff2'),
+         url('font/dimbo_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+    font-family: 'dimboregular';
+    zoom: 200%;
+}
+
+form
+{
+    text-align: center;
+}
+
+button
+{
+    font-family: 'dimboregular';
+    font-size: 26px;
+}
+
+p2
+{
+    font-size: 12px;
+}
